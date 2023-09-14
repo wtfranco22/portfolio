@@ -1,0 +1,43 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "src": "/pokemon.png",
+            "title": "Pokémon",
+            "description": "Descubre una plataforma esencial para los fanáticos de Pokémon. Ofrecemos una lista completa y actualizada de todos los Pokémon existentes, gracias a la integración de una API que accede a una amplia base de datos. Para mejorar la experiencia, hemos implementado un sistema de paginación y filtros anidados para facilitar la búsqueda de Pokémon específicos. Además, los usuarios pueden contribuir añadiendo nuevos Pokémon a la base de datos. Únete a nuestra comunidad de entrenadores y explora esta plataforma que he creado con pasión. ¡Disfruta tanto como yo lo hice al crearla! Este proyecto es un recurso esencial para los fanáticos de Pokémon.",
+            "technologies": [
+                "ReactJs",
+                "Redux",
+                "Css",
+                "NodeJs",
+                "Express",
+                "Sequelize",
+                "PostgreSql"
+            ],
+            "linkGithub": "https://github.com/wtfranco22/pokemon",
+            "linkDeploy": "https://pokemon-vert-two.vercel.app"
+        },
+        {
+            "id": "2",
+            "src": "/descuentosya.png",
+            "title": "Descuentos Ya!",
+            "description": "Descuentos Ya! es una plataforma que conecta empresas con socios de una organización, ofreciendo descuentos exclusivos. Su interfaz intuitiva y diseño estético brindan una experiencia agradable. Características clave: conexión efectiva, descuentos exclusivos, navegación sencilla, diseño atractivo y versión mobile para practicidad. Una solución conveniente para ahorrar dinero y disfrutar de ofertas especiales en una variedad de productos y servicios. Únete a DescuentosYa! y comienza a beneficiarte hoy mismo.",
+            "technologies": [
+                "NextJs",
+                "ReactJs",
+                "Redux",
+                "Tailwind",
+                "Cloudinary",
+                "Brevo (email)",
+                "Express",
+                "Prisma",
+                "PostgreSql",
+                "JWT",
+                "MercadoPago",
+                "PayPal"
+            ],
+            "linkGithub": "https://github.com/CebrasDevs/DescuentosYa",
+            "linkDeploy": "https://descuentos-ya.vercel.app"
+        }
+    ]
+}
