@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #e4e4e4;
+            border-radius: 5px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0 0 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Confirmación de Contacto con Wtfranco22</h1>
+        <p>Estimado ${contactName},</p>
+        <p>Gracias por ponerte en contacto conmigo a través de mi portfolio. He recibido tu mensaje y te voy a responder a la brevedad.</p>
+        <p>Mientras tanto, aquí tienes los detalles de tu mensaje:</p>
+        <ul>
+            <li><strong>Nombre:</strong> ${contactName},</li>
+            <li><strong>Correo electrónico:</strong> ${contactEmail} </li>
+            <li><strong>Mensaje:</strong> ${contactMessage} </li>
+        </ul>
+        <p>Si tienes alguna pregunta adicional o necesitas información adicional, no dudes en ponerte en contacto nuevamente.</p>
+        <p>¡Espero con interés trabajar con vos!</p>
+        <p>Atentamente<br>Franco Matías, Rodríguez</p>
+        <a class="button" href="https://www.wtfranco22-vercel.com">Portfolio</a><br>
+        <a class="button" href="https://www.linkedin.com/in/wtfranco22">LinkedIn</a><br>
+        <a class="button" href="https://wa.me/5492996017699">Wpp 2996017699</a><br>
+    </div>
+</body>
+</html>
