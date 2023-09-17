@@ -25,4 +25,10 @@ module.exports = async (contact) => {
         subject: 'Notificación de contacto',
         html: generatedEmail
     });
+    await transporter.sendMail({
+        from: `no-reply@wtfranco22.com`,
+        to: `${EMAIL_USER}`,
+        subject: 'Notificación de contacto',
+        html: generatedEmail
+    });
 };
