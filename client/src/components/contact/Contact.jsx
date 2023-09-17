@@ -7,7 +7,7 @@ import { useState } from 'react';
 import Form from '../form/Form';
 
 const Contact = () => {
-    const [showForm, setShowForm] = useState(true);
+    const [showForm, setShowForm] = useState(false);
     const handleForm = () => {
         setShowForm(!showForm);
     };
