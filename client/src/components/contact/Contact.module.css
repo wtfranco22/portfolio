@@ -1,7 +1,6 @@
 .container {
   display: flex;
   height: calc(100vh - 5em);
-  background-color: #017265;
   justify-content: center;
   align-items: center;
 }
@@ -65,4 +64,10 @@
   background-color: #0ff;
   color: #16161c;
   transform: scale(1.2);
+}
+
+@media (max-width:900px) {
+  .contactContent{
+    width: 100%;
+  }
 }

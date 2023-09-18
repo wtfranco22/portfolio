@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@600&display=swap');
 :root {
-  font-family: 'PT Serif', serif, 'Roboto Slab', serif;
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -32,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: linear-gradient(to bottom, #017265, #000);
 }
 /*
 h1 {
@@ -70,7 +69,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-body {
-  /* background-color: #00A896; */
-  background-color: #017265;
-}
