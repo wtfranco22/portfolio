@@ -3,13 +3,13 @@ import styles from "./Nav.module.css"
 import { Link } from "react-scroll"
 const Nav = () => {
     const [menu, setMenu] = useState(false);
-    const handleClick = () => { setMenu(!menu) };
+    const handleMenu = () => { setMenu(!menu) };
     return (
         <nav className={`${styles.container} ${menu ? styles.open : ''}`}>
             <Link to="https://www.linkedin.com/in/wtfranco22" target="_blank">
                 <img className={styles.img} src="/logo.png" alt="logo-wtfranco22" />
             </Link>
-            <div className={styles.mobileMenu} onClick={handleClick}>
+            <div className={styles.mobileMenu} onClick={handleMenu}>
                 <div className={`${styles.bar} ${menu ? styles.open : ''}`} />
                 <div className={`${styles.bar} ${menu ? styles.open : ''}`} />
                 <div className={`${styles.bar} ${menu ? styles.open : ''}`} />
@@ -23,7 +23,7 @@ const Nav = () => {
                         offset={-100}
                         duration={700}
                         className={styles.link}
-                        onClick={handleClick}
+                        onClick={handleMenu}
                         >
                         Inicio
                     </Link>
@@ -36,7 +36,7 @@ const Nav = () => {
                         offset={-80}
                         duration={700}
                         className={styles.link}
-                        onClick={handleClick}
+                        onClick={handleMenu}
                         >
                         Proyectos
                     </Link>
@@ -49,7 +49,7 @@ const Nav = () => {
                         offset={-80}
                         duration={700}
                         className={styles.link}
-                        onClick={handleClick}
+                        onClick={handleMenu}
                         >
                         Contacto
                     </Link>
